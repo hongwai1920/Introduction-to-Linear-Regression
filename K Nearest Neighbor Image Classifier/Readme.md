@@ -1,3 +1,2 @@
 # K Nearest Neighbor Image Classifier
-![A peek at CIFAR-10 image dataset](Images/CIFAR-10.png)
-<img src="https://github.com/your_image.png" alt="Your image title" width="250"/>
+<img src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/Images/CIFAR-10.png" alt="A Peek at CIFAR-10 Image Dataset" width="250" height="250"/>
