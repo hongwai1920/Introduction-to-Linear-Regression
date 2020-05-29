@@ -7,4 +7,5 @@ We build a k nearest neighbor image classifier from scratch to understand its un
 Then we train and test it on CIFAR-10 image dataset to determine its accuracy.
 
 ## Linear Regression
-This folder contains all my personal project using linear regression model.
+This folder contains a detailed and comprehensive introduction to Linear Regression model, including verifying its assumptions.
+We use it on Kaggle house prices for prediction.
