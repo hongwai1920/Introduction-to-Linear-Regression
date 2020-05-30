@@ -8,7 +8,8 @@ Below is a peek of the CIFAR-10 image dataset.
 <p align="center"> <img  src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/Images/CIFAR-10.png" width="350" height="350"></p> 
 
 ## k_nearest_neighbor.py
-The file contains the algorithms class KNearestNeighbor
+The file contains the class KNearestNeighbor with train, predict, compute_distances and predict_labels methods.
+Its uses <img src="https://latex.codecogs.com/svg.latex?\ell^2" title="\ell^2" /> distance as metric in classification.
 
 ## k nearest neighbor image classifier.ipynb
 The notebook contains a detailed introduction and imeplementation of K Nearest Neighbor algorithms from k_nearest_neighbor.py.
