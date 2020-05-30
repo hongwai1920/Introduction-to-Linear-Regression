@@ -9,7 +9,8 @@ class LinearClassifier:
 
     def train(self, X, y, learning_rate=1e-3, reg=1e-5, num_iters=100, batch_size=200, verbose=False):
         """
-        Train this linear classifier using stochastic gradient descent.
+        Train this linear classifier using stochastic gradient descent (SGD),
+        whose aim is to find a set of weights that minimize loss function.
 
         Inputs:
         - X: A numpy array of shape (N, D) containing training data; there are N
