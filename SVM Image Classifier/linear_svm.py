@@ -3,6 +3,19 @@ import numpy as np
 def svm_loss(W, X, y, reg):
     """
     Structured SVM loss function, vectorized implementation.
+    
+    Mathematical concepts to calculate gradient of multi-class SVM loss function
+    For a single datapoint x_i, its loss function is
+    L_i = \sum_{j\neq y_i} \left[ \max(0, w_j^Tx_i - w_{y_i}^Tx_i + \Delta) \right]
+    Differentiating with respect w_{y_i} (correct class) gives
+    \nabla_{w_{y_i}} L_i = - \left( \sum_{j\neq y_i} \mathbb{1}(w_j^Tx_i - w_{y_i}^Tx_i + \Delta > 0) \right) x_i
+    Differentiating with respect w_{j} where j \neq y_i (incorrect class) gives
+    \nabla_{w_j} L_i = \mathbb{1}(w_j^Tx_i - w_{y_i}^Tx_i + \Delta > 0) x_i
+
+    For all datapoints, we need to take average of all loss functions;
+    L =  \frac{1}{N} \sum_{i=1}^N L_i +  \lambda R(W)
+    In this function, we use l2-regularization, that is,
+    R(W) = \sum_k\sum_l W_{k,l}^2
 
     Inputs have dimension D, there are C classes, and we operate on minibatches
     of N examples.
@@ -31,19 +44,6 @@ def svm_loss(W, X, y, reg):
              
     
     Each column of W corresponds to a category/class.
-
-    Mathematical concepts to calculate gradient of multi-class SVM loss function
-    For a single datapoint x_i, its loss function is
-    L_i = \sum_{j\neq y_i} \left[ \max(0, w_j^Tx_i - w_{y_i}^Tx_i + \Delta) \right]
-    Differentiating with respect w_{y_i} (correct class) gives
-    \nabla_{w_{y_i}} L_i = - \left( \sum_{j\neq y_i} \mathbb{1}(w_j^Tx_i - w_{y_i}^Tx_i + \Delta > 0) \right) x_i
-    Differentiating with respect w_{j} where j \neq y_i (incorrect class) gives
-    \nabla_{w_j} L_i = \mathbb{1}(w_j^Tx_i - w_{y_i}^Tx_i + \Delta > 0) x_i
-
-    For all datapoints, we need to take average of all loss functions;
-    L =  \frac{1}{N} \sum_{i=1}^N L_i +  \lambda R(W)
-    In this function, we use l2-regularization, that is,
-    R(W) = \sum_k\sum_l W_{k,l}^2
     """
     loss = 0.0
     dW = np.zeros(W.shape) # initialize the gradient as zero
