@@ -5,7 +5,7 @@ The dataset is divided into five training batches and one test batch, each with 
 
 Below is a peek of the CIFAR-10 image dataset. 
 
-<img src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/Images/CIFAR-10.png" alt="A Peek at CIFAR-10 Image Dataset" width="350" height="350"/>
+<p align="center"> <img  src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/Images/CIFAR-10.png" width="350" height="350"></p> 
 
 ## k_nearest_neighbor.py
 The file contains the algorithms class KNearestNeighbor
@@ -16,4 +16,4 @@ We also perform a k-fold cross validation on the hyperparameter k to determine t
 
 The following is the cross validation on k graph (cross validation accuracy against k), which extracted from the notebook k nearest neighbor image classifier.ipynb.
 
-<img src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/Images/cross-validation%20on%20k.png" alt="A Peek at CIFAR-10 Image Dataset" width="650" height="500"/>
+<p align="center"> <img  src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/Images/cross-validation%20on%20k.png" width="650" height="500"></p> 
