@@ -10,5 +10,5 @@ This folder contains a detailed and comprehensive introduction to Linear Regress
 We use it on Kaggle house prices for prediction.
 
 ## SVM Image Classifier
-We build SVM Image Classifier from scratch using solely numpy library. 
+We build a multi-class SVM Image Classifier from scratch using solely numpy library. 
 Then we test its performance on CIFAR-10 image dataset
