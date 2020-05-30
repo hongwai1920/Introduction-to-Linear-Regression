@@ -2,7 +2,7 @@ import numpy as np
 
 def svm_loss(W, X, y, reg):
     """
-    Structured SVM loss function, naive implementation (with loops).
+    Structured SVM loss function, vectorized implementation.
 
     Inputs have dimension D, there are C classes, and we operate on minibatches
     of N examples.
