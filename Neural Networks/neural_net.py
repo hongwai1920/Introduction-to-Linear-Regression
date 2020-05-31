@@ -148,8 +148,6 @@ class TwoLayerNet:
 
         grads = {'W1':dW1, 'b1':db1, 'W2':dW2, 'b2':db2}
 
-        # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-
         return loss, grads
 
     def train(self, X, y, X_val, y_val,
