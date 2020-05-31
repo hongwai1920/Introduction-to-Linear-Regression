@@ -18,6 +18,10 @@ We use it on Kaggle house prices for prediction.
 We build a two-layer neural network from scratch using solely numpy library to reduce running time by using vectorization.
 By using cross-validation to tune our hyperparameters, we use them on test set to determine their performace.
 
+The following plot recorded all underlying weights images for us to understand what the neurons in hidden layer do to input images.
+
+<p align="center"> <img  src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/Neural%20Networks/Images/hidden%20neurons.png" ></p> 
+
 ## SVM Image Classifier
 We build a multi-class SVM Image Classifier from scratch using solely numpy library to reduce running time by using vectorization. 
 Then we test its performance on CIFAR-10 image dataset
