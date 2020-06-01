@@ -1,6 +1,10 @@
 # Two-layers Neural Network
 We implemeneted from scratch (using numpy) a two-layer fully-connected neural network with one hidden layer to understand its underlying 
 working mechanism. 
+The strucure of the neural network is as follows:
+
+input - fully connected layer - ReLU - fully connected layer - softmax
+
 We also plotted the underlying weights images to understand what the neurons in hidden layer do to input images. 
 
 <p align="center"> <img  src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/Neural%20Networks/Images/hidden%20neurons.png" ></p> 
