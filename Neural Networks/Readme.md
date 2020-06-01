@@ -1,5 +1,5 @@
 # Two-layers Neural Network
-We implemeneted a two-layer fully-connected neural network with one hidden layer from scratch so that I can understand its underlying 
+We implemeneted from scratch (using numpy) a two-layer fully-connected neural network with one hidden layer to understand its underlying 
 working mechanism. 
 We also plotted the underlying weights images to understand what the neurons in hidden layer do to input images. 
 
