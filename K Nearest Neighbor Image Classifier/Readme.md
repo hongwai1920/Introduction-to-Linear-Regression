@@ -11,7 +11,7 @@ Below is a peek of the CIFAR-10 image dataset.
 The file contains the class KNearestNeighbor with train, predict, compute_distances and predict_labels methods.
 Its uses <img src="https://latex.codecogs.com/svg.latex?\ell^2" title="\ell^2" /> distance as metric in classification.
 
-## k nearest neighbor image classifier.ipynb
+## [k nearest neighbor image classifier.ipynb](https://nbviewer.jupyter.org/github/hongwai1920/Machine-Learning-algorithms/blob/master/K%20Nearest%20Neighbor%20Image%20Classifier/k%20nearest%20neighbor%20image%20classifier.ipynb)
 The notebook contains a detailed introduction and imeplementation of K Nearest Neighbor algorithms from k_nearest_neighbor.py.
 We also perform a k-fold cross validation on the hyperparameter k to determine the best k that gives the highest accuracy.
 
