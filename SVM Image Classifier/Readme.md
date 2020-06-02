@@ -1,6 +1,6 @@
 # SVM Image Classifier
 
-## SVM_Image_Classifier.ipynb
+## [SVM_Image_Classifier.ipynb](https://nbviewer.jupyter.org/github/hongwai1920/Machine-Learning-algorithms/blob/master/SVM%20Image%20Classifier/SVM_Image_Classifier.ipynb)
 This notebook implements a multi-class SVM Image classifier on the CIFAR-10 image dataset.
 
 ## linear_classifier.py
