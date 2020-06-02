@@ -10,11 +10,10 @@ We also plotted the underlying weights images to understand what the neurons in 
 <p align="center"> <img  src="https://github.com/hongwai1920/Machine-Learning-algorithms/blob/master/Neural%20Networks/Images/hidden%20neurons.png" ></p> 
 
 
-## two_layer_neural_net.ipynb
+## [two_layer_neural_net.ipynb](https://nbviewer.jupyter.org/github/hongwai1920/Machine-Learning-algorithms/blob/master/Neural%20Networks/two_layer_neural_net.ipynb)
 Contains implementation and training a two-layer neural networks on CIFAR-10 image dataset.
 We also include tuning hypterparamaters (learning rate, regularization strength and number of neurons in the hidden layer) to 
 achieve better performance on test set. 
-
 
 ## neural_net.py 
 Contains a class `TwoLayerNet` 
